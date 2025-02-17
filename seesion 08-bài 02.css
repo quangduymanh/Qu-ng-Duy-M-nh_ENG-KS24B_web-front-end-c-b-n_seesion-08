@@ -1,0 +1,23 @@
+table {
+    background-color: rgb(100, 23, 171);
+
+}
+input, textarea{
+    background-color: rgb(100, 23, 171);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid white;
+}
+textarea {
+    height: 100px;
+}
+button {
+    background-color: aliceblue;
+    color: rgb(100, 22, 171);
+    height: 20px;
+    height: 40px;
+    border-radius: 5px;
+
+}
