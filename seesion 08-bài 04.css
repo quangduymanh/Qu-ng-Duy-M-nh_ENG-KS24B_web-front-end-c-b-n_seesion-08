@@ -1,0 +1,49 @@
+h2 {
+    border-bottom: 3px solid rgb(255, 0, 0);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 50%;
+    padding: 20px;
+}
+
+table tr td table {
+    width: 100%;
+}
+
+.diamond {
+    width: 80px;
+    height: 80px;
+    background: rgb(245, 245, 245);
+    text-align: center;
+    transform: rotate(45deg);
+    border-radius: 10px;
+    line-height: 80px;
+}
+
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+.desc {
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    text-align: left;
+}
+.diamond i {
+    font-size: 32px;
+    color: rgb(226, 85, 85);
+    transform: rotate(-45deg);
+}
